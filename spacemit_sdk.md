@@ -5,8 +5,8 @@
 ### 下载及解压 SDK
 
 ```sh
-wget https://archive.spacemit.com/spacemit-ai/spacemit-ai-sdk/spacemit-ai-sdk.v1.1.0.tar.gz --no-check-certificate
-tar xzf spacemit-ai-sdk.v1.1.0.tar.gz
+wget https://archive.spacemit.com/spacemit-ai/spacemit-ai-sdk/spacemit-ai-sdk.v1.1.0.x86_64.tar.gz --no-check-certificate
+tar xzf spacemit-ai-sdk.v1.1.0.x86_64.tar.gz
 ```
 
 （如遇 URL 更新，请前往 https://archive.spacemit.com/spacemit-ai/spacemit-ai-sdk/ 查看最新版本 SDK 下载链接）
