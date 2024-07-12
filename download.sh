@@ -1,0 +1,1 @@
+wget https://archive.spacemit.com/spacemit-ai/ModelZoo/llm/chatglm/chatglm2-q4.bin
