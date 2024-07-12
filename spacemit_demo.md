@@ -61,7 +61,7 @@ Classify result: n02113023 Pembroke, Pembroke Welsh corgi
 下载目标检测 DEMO 必要模型：
 
 ```sh
-wget https://bj.bcebos.com/paddlehub/fastdeploy/nanodet-plus-m_320.onnx -O share/ai-support/models/nanodet-plus-m_320.onnx
+root@k1:~/spacemit-ai-sdk.v1.1.0/bianbu-ai-support# wget https://bj.bcebos.com/paddlehub/fastdeploy/nanodet-plus-m_320.onnx -O share/ai-support/models/nanodet-plus-m_320.onnx
 --2024-07-13 03:08:20--  https://bj.bcebos.com/paddlehub/fastdeploy/nanodet-plus-m_320.onnxstdeploy/nanodet-plus-m_320.onnx -O share/ai-support/models/nanodet-plus-m_320.onnx
 正在解析主机 bj.bcebos.com (bj.bcebos.com)... 2409:8c04:1001:1203:0:ff:b0bb:4f27, 103.211.222.98
 正在连接 bj.bcebos.com (bj.bcebos.com)|2409:8c04:1001:1203:0:ff:b0bb:4f27|:443... 已连接。
@@ -72,6 +72,7 @@ wget https://bj.bcebos.com/paddlehub/fastdeploy/nanodet-plus-m_320.onnx -O share
 share/ai-support/mo 100%[===================>]   4.56M  2.39MB/s  用时 1.9s    
 
 2024-07-13 03:08:22 (2.39 MB/s) - 已保存 “share/ai-support/models/nanodet-plus-m_320.onnx” [4786922/4786922])
+```
 
 板上执行目标检测 DEMO：
 
