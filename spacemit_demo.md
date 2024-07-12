@@ -5,6 +5,7 @@
 ### 开发板简介
 
 开发板介绍文档 (BananaPI Wiki)；https://wiki.banana-pi.org/Banana_Pi_BPI-F3#Application_direction
+
 开发板介绍文档 (BananaPI Docs)；https://docs.banana-pi.org/en/BPI-F3/BananaPi_BPI-F3
 
 开发板应用方向：
