@@ -111,10 +111,10 @@ result0.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, seg
 
 该 SDK 耦合度较高、需要执行 source ./.spine.rc 后方可应用 SDK 工具链，可能临时性破坏用户原有 Shell 环境。如需调用其中工具链，建议采取隔离措施。
 
-该 SDK 提供了 C++、Python 两类接口，主要使用 onnxruntime 推理对应 AI 模型。使用方法与公版 onnxruntime 包大差不差，但需要从其[私有源](https://archive.spacemit.com/spacemit-ai/onnxruntime/)下载 python 包。
+该 SDK 提供了 C++、Python 两类接口，主要使用 onnxruntime 推理对应 AI 模型。使用方法与公版 onnxruntime 包大差不差，但需要从其[私有源](https://archive.spacemit.com/spacemit-ai/onnxruntime/)下载 python 包。（必要时需要加上 --break-system-packages 标记）
 
 其中 Python 包调用时需要增加 providers，示例：```ort.InferenceSession(net_param_path, providers=["SpaceMITExecutionProvider"])```。而 C++ 库的链接方法可以参考 demo 目录下的 build.sh 脚本。
 
 #### 问题及状态
 
-暂无。
+暂无
