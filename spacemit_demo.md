@@ -4,9 +4,11 @@
 
 ### 开发板简介
 
-开发板介绍文档 (BananaPI Wiki)；https://wiki.banana-pi.org/Banana_Pi_BPI-F3#Application_direction
+香蕉派 BPI-F3 是一款工业级 RISC-V 开发板，采用 SpacemiT K1 8 核 RISC-V 芯片设计，CPU 集成了 2.0 TOPs 的 AI 计算能力。板载 4G DDR 和 16G eMMC。配备 2 个千兆以太网接口、4 个 USB 3.0 接口和用于 M.2 的 PCIe 接口，支持 HDMI 和双 MIPI-CSI 摄像头。
 
-开发板介绍文档 (BananaPI Docs)；https://docs.banana-pi.org/en/BPI-F3/BananaPi_BPI-F3
+开发板介绍文档 (BananaPI Wiki)：https://wiki.banana-pi.org/Banana_Pi_BPI-F3#Application_direction
+
+开发板介绍文档 (BananaPI Docs)：https://docs.banana-pi.org/en/BPI-F3/BananaPi_BPI-F3
 
 开发板应用方向：
 - NAS
@@ -18,9 +20,10 @@
 ### DEMO 简介
 
 * DEMO 说明
-  classification_demo：单张图片图像分类 demo，输入单张图片路径，输出图像的类别。
+  - classification_demo：单张图片图像分类 demo，输入单张图片路径，输出图像的类别。
+  - detection_demo：单帧图片目标检测 demo，输入单帧图片路径，输出图像的类别、bbox、带框渲染图。
 * DEMO 源码链接
-  位于完整 SDK 解压后 bianbu-ai-support-demo 目录下。
+  位于完整 SDK 解压后 ~/spacemit-ai-sdk.v1.1.0/bianbu-ai-support/demo 目录下。
 * SDK 及链接
   https://archive.spacemit.com/spacemit-ai/spacemit-ai-sdk/spacemit-ai-sdk.v1.1.0.x86_64.tar.gz
 * DEMO 运行所需的 SDK：spacemit-ai-sdk.v1.1.0
@@ -30,6 +33,7 @@
 执行环境：
 - 开发板：BananaPI BPI-F3 (4G RAM 版本)
 - 操作系统：Bianbu 1.0
+- 连接方式：UART 串口
 
 通过 screen /dev/ttyUSB0 115200 串口连接上开发板。
 
